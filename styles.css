@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.head-title{
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    background-color:  rgb(23, 124, 124);
+    color: blanchedalmond;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 55px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.add-note{
+    background-color: rgb(23, 124, 124);
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#note-title , #note-tagline ,#note-body{
+    width: 300px;
+    background-color: black;
+    height: 40px;
+    text-indent: 10px;
+    margin: 10px;
+    color: wheat;
+    font-size: 20px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+#add-note-btn{
+    font-size: 20px;
+    border: 4px solid rgb(19, 19, 17);
+    color: aquamarine;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.notes-list{
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.note{
+    border: 2px solid burlywood;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.dtitle{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: aquamarine;
+}
+
+.dtag{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: rgb(86, 173, 72);
+}
+
+.dbody{
+    font-size: 17px;
+    margin-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    color: rgb(144, 19, 211);
+}
+
+.toast {
+    display: none;
+    background-color: #a48b26;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+  }
+  
+  .pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #prev-page, #next-page{
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    width: 95px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  #page-num{
+    color: blue;
+    font-size: 20px;
+  }
